@@ -1,3 +1,5 @@
+//  PE: Adding this comment for my first commit.
+
 // Read the instructions for each of the warm up exercises carefully. This may
 // seem repetitious or pedantic at first, however it's very important that you
 // become comfortable with these fundamental concepts. Do not move on to
