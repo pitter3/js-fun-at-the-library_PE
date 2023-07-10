@@ -17,14 +17,15 @@ function unshelfBook(book, shelf) {
 
 
 function listTitles(shelfContents) {
-  var emptyArray = [];
+  var titleArray = [];
   for (var i = 0; i < shelfContents.length; i++) {
-    emptyArray.push(shelfContents[i].title);
-  }
-  console.log(emptyArray)
+    titleArray.push(shelfContents[i].title);
+  } 
+  return titleArray.join(", ");
 }
 // PE: Struggling way too much on the above problem. Going to work on it later.
-
+// FUTURE PE: tostring() wasn't working because there weren't spaces.
+// finally found the .join() method and it was exactly what I needed.
 
 function searchShelf(shelfName, bookTitle) { 
   for (var i = 0; i < shelfName.length; i++) {
